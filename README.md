@@ -6,7 +6,7 @@ Bot que corre automáticamente cada día a las 9am, detecta cumpleaños del equi
 
 ## Stack
 
-- **IA:** Claude CLI (`claude-opus-4-5`) — genera mensajes personalizados por contacto
+- **IA:** Claude CLI (`claude-opus-4-6`) — genera mensajes hiper personalizados por contacto
 - **WhatsApp:** `whatsapp-web.js` — envío de mensajes via WhatsApp Web
 - **Proceso:** `pm2` — mantiene el bot-server activo y lo reinicia si cae
 - **Scheduling:** `cron` — ejecuta el orquestador todos los días a las 9am
