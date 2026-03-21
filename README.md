@@ -90,7 +90,7 @@ Edita `contacts.json` con los datos reales de tu equipo:
 
 ```bash
 claude --version
-claude -p "Di hola" --model claude-opus-4-5
+claude -p "Di hola" --model claude-opus-4-6
 ```
 
 Si no está instalado: [docs.anthropic.com/claude-code](https://docs.anthropic.com/claude-code)
