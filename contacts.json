@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Dennis Vivas Zelada",
+    "nickname": "Dennis",
+    "phone": "51999999999",
+    "birthday": "21/03",
+    "tier": 1,
+    "relationship": "cofundador",
+    "context": {
+      "role": "Agentic AI Engineer y Co-fundador de FintechLab",
+      "personality": "apasionado por la IA, builder nato, siempre experimentando con nuevas tecnologías, primero en adoptar todo lo nuevo",
+      "shared_history": "construimos juntos FTL TRACE TX desde cero, instaló NemoClaw el día del anuncio en GTC 2026 y conectó el Telegram bot el mismo día",
+      "current_moment": "en pleno cierre de EPIC-06 y EPIC-09, liderando la transición agentic del equipo, su dvz-agent ya corre en producción",
+      "inside_references": "dvz-agent, el birthday bot que él mismo activó, NemoClaw, el Telegram bridge",
+      "tone": "cercano, técnico pero cálido, con humor sutil sobre la IA y los agentes"
+    },
+    "memory": {
+      "last_message": "Dennis, hoy celebramos a alguien que construye el futuro con cada línea de código",
+      "last_sent": "2026-03-21T22:00:00.000Z",
+      "avoid": "",
+      "next_year_notes": ""
+    }
+  },
+  {
+    "name": "Franco Cedillo",
+    "nickname": "Franco",
+    "phone": "51999999999",
+    "birthday": "21/03",
+    "tier": 1,
+    "relationship": "socio",
+    "context": {
+      "role": "Product Architect y fundador de FintechLab",
+      "personality": "visionario, metódico, obsesionado con el detalle del producto, siempre pensando en el siguiente nivel",
+      "shared_history": "más de un año construyendo FTL TRACE TX juntos, desde la primera spec hasta el primer DPP enviado a Peter Millar",
+      "current_moment": "cerrando los EPICs más críticos del proyecto con Y Combinator en el horizonte",
+      "inside_references": "el spec que siempre gana, la Triple Cerradura, los PRs de los viernes, el DPP compliance score",
+      "tone": "respetuoso, cálido, con reconocimiento genuino al trabajo y la visión"
+    },
+    "memory": {
+      "last_message": "Franco, hoy celebramos al visionario que convierte ideas en productos que transforman cómo la gente se relaciona con su dinero. Que este nuevo año te traiga claridad para seguir construyendo lo que otros aún no imaginan. Feliz cumpleaños 🎂🚀",
+      "last_sent": "2026-03-21T22:04:42.838Z",
+      "avoid": "",
+      "next_year_notes": ""
+    }
+  },
+  {
+    "name": "Ejemplo Tier 2",
+    "nickname": "Nombre",
+    "phone": "51999999998",
+    "birthday": "15/06",
+    "tier": 2,
+    "relationship": "cliente",
+    "context": {
+      "role": "Describe el cargo o rol de la persona",
+      "personality": "rasgos que defines con el tiempo",
+      "shared_history": "algo que vivieron juntos o un proyecto compartido",
+      "current_moment": "qué está viviendo esta persona cerca de su cumpleaños",
+      "inside_references": "detalles específicos que solo su círculo conoce",
+      "tone": "profesional y cercano"
+    },
+    "memory": {
+      "last_message": "",
+      "last_sent": "",
+      "avoid": "",
+      "next_year_notes": ""
+    }
+  },
+  {
+    "name": "Ejemplo Tier 3",
+    "nickname": "Nombre",
+    "phone": "51999999997",
+    "birthday": "03/11",
+    "tier": 3,
+    "relationship": "conocido",
+    "context": {
+      "role": "Contacto de red amplia",
+      "personality": "",
+      "shared_history": "",
+      "current_moment": "",
+      "inside_references": "",
+      "tone": "cálido y genuino"
+    },
+    "memory": {
+      "last_message": "",
+      "last_sent": "",
+      "avoid": "",
+      "next_year_notes": ""
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "birthday-bot",
+  "version": "5.0.0",
+  "description": "Bot de felicitaciones de cumpleaños con Claude AI y WhatsApp",
+  "type": "module",
+  "main": "orchestrate.js",
+  "scripts": {
+    "start:server": "node bot-server.js",
+    "start": "node orchestrate.js",
+    "test": "echo '{}' > sent-log.json && BOT_SECRET=birthday-bot-secret BOT_SERVER_URL=http://localhost:3001 node orchestrate.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "author": "FintechLab",
+  "license": "MIT"
+}

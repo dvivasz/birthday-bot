@@ -1,0 +1,18 @@
+# Logs y estado del bot (se generan automáticamente)
+sent-log.json
+failed-sends.jsonl
+cron.log
+
+# Sesión de WhatsApp (se genera al escanear el QR)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+
+# OS
+.DS_Store
+Thumbs.db
