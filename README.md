@@ -210,4 +210,4 @@ El cron necesita el path absoluto de node (no el de nvm). Usa `which node` para 
 
 ---
 
-Construido el 21 de marzo de 2026 · [FintechLab](https://fintechlab.la)
+Construido el 21 de marzo de 2026 · [DVZ](https://dvz.com)
