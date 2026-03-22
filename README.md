@@ -1,6 +1,6 @@
 # 🎂 Birthday Bot
 
-Bot que corre automáticamente cada día a las 9am, detecta cumpleaños del equipo, genera un mensaje **personalizado con contexto real** usando Claude AI, y lo envía por WhatsApp.
+Bot que corre automáticamente cada día a las 9am, detecta cumpleaños de tu red de contactos, genera un mensaje **personalizado con contexto real** usando Claude AI, y lo envía por WhatsApp.
 
 > *"Dennis, hoy celebramos a alguien que construye el futuro con cada línea de código y cada decisión audaz. Que este nuevo año te traiga proyectos que enciendan tu curiosidad y victorias que superen tus propias expectativas. América Latina tiene suerte de contar con tu visión. 🎂✨"*
 >
