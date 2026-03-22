@@ -2,9 +2,9 @@
 
 Bot que corre automáticamente cada día a las 9am, detecta cumpleaños del equipo, genera un mensaje **personalizado con contexto real** usando Claude AI, y lo envía por WhatsApp.
 
-> *"Franco, hoy celebramos al visionario que convierte ideas en productos que transforman cómo la gente se relaciona con su dinero. Que este nuevo año te traiga claridad para seguir construyendo lo que otros aún no imaginan. Feliz cumpleaños 🎂🚀"*
+> *"Dennis, hoy celebramos a alguien que construye el futuro con cada línea de código y cada decisión audaz. Que este nuevo año te traiga proyectos que enciendan tu curiosidad y victorias que superen tus propias expectativas. América Latina tiene suerte de contar con tu visión. 🎂✨"*
 >
-> — Claude Opus 4.5, generado automáticamente el 21/03/2026
+> — Claude Opus 4.6, generado automáticamente el 12/12/2025
 
 ---
 
@@ -12,7 +12,7 @@ Bot que corre automáticamente cada día a las 9am, detecta cumpleaños del equi
 
 | Componente | Tecnología |
 |---|---|
-| Generación de mensajes | Claude CLI (`claude-opus-4-5` / `sonnet` / `haiku` según tier) |
+| Generación de mensajes | Claude CLI (`claude-opus-4-6` / `sonnet` / `haiku` según tier) |
 | Envío WhatsApp | `whatsapp-web.js` |
 | Proceso persistente | `pm2` |
 | Scheduling | `cron` |
@@ -28,7 +28,7 @@ Cron (9am)
             ├── Detecta cumpleaños del día
             ├── Determina Tier del contacto (1 / 2 / 3)
             ├── Claude CLI → genera mensaje personalizado
-            │       Tier 1 → claude-opus-4-5   (círculo íntimo)
+            │       Tier 1 → claude-opus-4-6   (círculo íntimo)
             │       Tier 2 → claude-sonnet-4-5 (red profesional)
             │       Tier 3 → claude-haiku-4-5  (contactos lejanos)
             └── bot-server:3001 → whatsapp-web.js → WhatsApp
@@ -52,10 +52,10 @@ El bot usa **3 niveles de personalización** para escalar a miles de contactos s
 
 ```json
 {
-  "name": "Nombre Completo",
-  "nickname": "Como le llamas",
-  "phone": "51999999999",
-  "birthday": "21/03",
+  "name": "Dennis Vivas Zelada",
+  "nickname": "Dennis",
+  "phone": "51969237034",
+  "birthday": "12/12",
   "tier": 1,
   "relationship": "socio / cliente / amigo / familia",
   "context": {
@@ -68,7 +68,7 @@ El bot usa **3 niveles de personalización** para escalar a miles de contactos s
   },
   "memory": {
     "last_message": "Mensaje del año pasado",
-    "last_sent": "2026-03-21T22:00:00.000Z",
+    "last_sent": "2025-12-12T22:00:00.000Z",
     "avoid": "Temas a evitar este año",
     "next_year_notes": "Contexto para el próximo cumpleaños"
   }
