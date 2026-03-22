@@ -22,22 +22,22 @@
     }
   },
   {
-    "name": "Franco Cedillo",
+    "name": "Pedro Ronaldo",
     "nickname": "Franco",
     "phone": "51999999999",
     "birthday": "21/03",
     "tier": 1,
     "relationship": "socio",
     "context": {
-      "role": "Product Architect y fundador de FintechLab",
+      "role": "Product Architect y fundador",
       "personality": "visionario, metódico, obsesionado con el detalle del producto, siempre pensando en el siguiente nivel",
-      "shared_history": "más de un año construyendo FTL TRACE TX juntos, desde la primera spec hasta el primer DPP enviado a Peter Millar",
+      "shared_history": "más de un año construyendo el proyecto juntos, desde la primera spec hasta la primera entrega",
       "current_moment": "cerrando los EPICs más críticos del proyecto con Y Combinator en el horizonte",
-      "inside_references": "el spec que siempre gana, la Triple Cerradura, los PRs de los viernes, el DPP compliance score",
+      "inside_references": "el spec que siempre gana, la Triple Cerradura, los PRs de los viernes",
       "tone": "respetuoso, cálido, con reconocimiento genuino al trabajo y la visión"
     },
     "memory": {
-      "last_message": "Franco, hoy celebramos al visionario que convierte ideas en productos que transforman cómo la gente se relaciona con su dinero. Que este nuevo año te traiga claridad para seguir construyendo lo que otros aún no imaginan. Feliz cumpleaños 🎂🚀",
+      "last_message": "Pedro, hoy celebramos al visionario que convierte ideas en productos que transforman cómo la gente se relaciona con su dinero. Que este nuevo año te traiga claridad para seguir construyendo lo que otros aún no imaginan. Feliz cumpleaños 🎂🚀",
       "last_sent": "2026-03-21T22:04:42.838Z",
       "avoid": "",
       "next_year_notes": ""
